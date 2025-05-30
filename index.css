@@ -1,0 +1,141 @@
+body{
+    /* background-color: rgb(31, 31, 31); */
+    background-image: url(images/fkf.png);
+    background-size: cover;
+    color: #fff;
+    cursor: crosshair;
+
+}
+
+.logo{
+    font-size: 1em;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(24, 199, 165, 1);
+    user-select: none;
+}
+
+
+#heading{
+  height: 20%;
+  padding-top: 3%;
+}
+
+
+#heading .btnLogin-popup{
+  width: 130px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  float: right;
+  cursor: pointer;
+  font-size: 1.1em;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 40px;
+  transition: .5s;
+}
+
+#heading .btnLogin-popup:hover{
+  background: #fff;
+  color: #162938; 
+}
+
+
+.welcomeAddress p {
+    margin-top: 250px;
+    border-right: .15em solid white;
+    font-family: "Courier";
+    font-size: 75px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .welcomeAddress p:nth-child(1) {
+    width: 6.3em;
+    -webkit-animation: type 2s steps(40, end);
+    animation: type 2s steps(40, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  .welcomeAddress p:nth-child(2) {
+    width: 5.5em;
+    margin-top: -50px;
+    opacity: 0;
+    -webkit-animation: type2 2s steps(40, end);
+    animation: type2 2s steps(20, end);
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+ 
+  
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid white;
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid white;
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid white;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid white;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @-webkit-keyframes blink {
+    50% {
+      border-color: tranparent;
+    }
+  }
